@@ -4,20 +4,28 @@ Ex02-Linux Process API-fork(), wait(), exec()
 Operating systems Lab exercise
 
 
-# AIM:To write C Program that uses Linux Process API - fork(), wait(), exec()
+# AIM:
+To write C Program that uses Linux Process API - fork(), wait(), exec()
 
 # DESIGN STEPS:
 
-### Step 1:Navigate to any Linux environment installed on the system or installed inside a virtual environment like virtual box/vmware or online linux JSLinux (https://bellard.org/jslinux/vm.html?url=alpine-x86.cfg&mem=192) or docker.
+### Step 1:
 
-### Step 2:Write the C Program using Linux Process API - fork(), wait(), exec()
+Navigate to any Linux environment installed on the system or installed inside a virtual environment like virtual box/vmware or online linux JSLinux (https://bellard.org/jslinux/vm.html?url=alpine-x86.cfg&mem=192) or docker.
 
-### Step 3:Test the C Program for the desired output. 
+### Step 2:
+
+Write the C Program using Linux Process API - fork(), wait(), exec()
+
+### Step 3:
+
+Test the C Program for the desired output. 
 
 # PROGRAM:
 
 ## C Program to create new process using Linux API system calls fork() and getpid() , getppid() and to print process ID and parent Process ID using Linux API system calls
 ```
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -35,21 +43,16 @@ int main() {
     }
 }
 
+
 ```
-
-
-
-
-
-
 
 
 
 
 ##OUTPUT
 
-<img width="595" height="156" alt="image" src="https://github.com/user-attachments/assets/71e33ce5-52b2-43b0-b057-bc1d3c5ef1cf" />
 
+<img width="595" height="156" alt="image" src="https://github.com/user-attachments/assets/2b29571e-b84b-4132-b796-330a1a468094" />
 
 
 
@@ -82,24 +85,8 @@ int main()
 
     return 0;
 }
+
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -108,7 +95,9 @@ int main()
 
 ##OUTPUT
 
-<img width="577" height="202" alt="image" src="https://github.com/user-attachments/assets/3e87679d-4d94-476d-b904-97acddcd23b8" />
+
+<img width="577" height="202" alt="image" src="https://github.com/user-attachments/assets/c60b5c64-2348-4495-a150-48ad75de4688" />
+
 
 
 
